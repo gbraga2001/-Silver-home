@@ -1,0 +1,9 @@
+body{backgrand_color:gray;
+}
+h3{ background-color: red;
+    color: blue;
+    text_align: justify;
+    font_family: arial, verdana;
+    font_size: 16pt;
+}
+h2,h3{ font_ size:200%;}
