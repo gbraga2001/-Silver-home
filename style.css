@@ -38,7 +38,7 @@ nav li a{
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        font-family: 'Poppins', sans-serif;
+        font-family:after 'Poppins', sans-serif;
     }
     nav{
         background-color: #18929D;
@@ -72,7 +72,7 @@ nav li a{
         transition: 0.3s;
     }
     nav li a:hover{
-        background-color: white;
+        background-color: white; 
         color: black;
     }
     .banner{
@@ -159,7 +159,7 @@ nav li a:hover{
         font-family: 'Poppins', sans-serif;
     }
     nav{
-        background-color: #18929D;
+        background-color: #18929D; 
         padding: 10px 60px;
         display: flex;
         justify-content: space-between;
@@ -176,7 +176,7 @@ nav li a:hover{
         align-items: center;
         list-style: none;
         padding: 10px;
-    }
+    } 
     nav li{
         margin-left: 7px;
     }
@@ -187,17 +187,10 @@ nav li a:hover{
         font-weight: 500;
         padding: 8px 15px;
         border-radius: 5px;
-        transition: 0.3s;
-    }
-    nav li a:hover{
-        background-color: white;
-        color: black;
-    }
-    .banner{
         height: 100vh;
         background: linear-gradient( rgba(0,0,0,0.281), rgba(0,0,0,0.308)),url('background.jpg');
         background-size: cover;
-        background-position: center;
+        background-position: center; 
         background-repeat: no-repeat;
         display: flex;
         align-items: center;
@@ -210,7 +203,7 @@ nav li a:hover{
         font-weight: 600;
     }
     .texto .sub_titulo{
-        color: #fff;
+        color: #fff; 
         font-size: 58px;
         font-weight: 600;
     }
@@ -223,7 +216,7 @@ nav li a:hover{
         border-radius: 5px;
         border: 0;
         margin: 0 10px;
-        font-size: 20px;
+        font-size: 20px; 
         font-weight: 500;
         padding: 0 10px;
         cursor: pointer;
@@ -234,9 +227,6 @@ nav li a:hover{
         color: white;
         background: none;
         border: 2px solid white;
-    }
-    .texto .botoes button.n-overlay:hover{
-        color: black;
         background-color: white;
     }
     .texto .botoes button.overlay{
@@ -247,9 +237,9 @@ nav li a:hover{
     @keyframes vibrar {
         0%{
             transform: scale(1);
-        }.adquirir {
+        } adquirir {
             display: block;
-            width: 200px;
+            width; 200px;
             height: 50px;
             background-color: blue;
             color: white;
@@ -265,11 +255,11 @@ nav li a:hover{
         
         .adquirir:hover {
             color: black;
-            background-color: white;
+            background-color: #ffffff;
         }
         
         .adquirir:active {
-            background: white;
+            background: #ffffff;
             color: black;
             animation: vibrar 0.5s ease-in-out infinite both;
         }
@@ -330,7 +320,7 @@ nav li a:hover{
         display: block;
         width: 200px;
         height: 50px;
-        background-color: rgb(255, 255, 255);
+        background-color: #ffffff;
         color: rgb(0, 0, 0);
         text-align: center;
         line-height: 50px;
@@ -347,7 +337,7 @@ nav li a:hover{
         line-height: 50px;
         text-decoration: none;
         border-radius: 5px;
-        border: 2px solid white;
+        border: 2px solid #18929D;
         float: left;
         margin: 20px 0 20px 50px;
         animation: piscar 1s linear infinite;
